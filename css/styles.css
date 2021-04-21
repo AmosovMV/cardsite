@@ -1,0 +1,94 @@
+@font-face {
+  src: url("../fonts/OpenSans-Regular.ttf");
+  font-family: 'OpenSans-Regular';
+}
+
+body {
+  background-color: rgb(233, 230, 217);
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.contact-section {
+  width: 300px;
+  margin-top: 20px;
+}
+
+.img-contact {
+  border-style: solid;
+  border-color: rgb(95, 158, 160);
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  padding-right: 10px;
+}
+
+.main-section {
+  display: flex;
+  margin-left: 300px;
+}
+
+.about-section {
+  margin-left: 30px;
+}
+
+.header {
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+  border-bottom: solid;
+  border-color: cadetblue;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-left: 20px;
+  border-right: 20px;
+}
+
+.title {
+  color: rgb(55, 66, 77);
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: 'Orelega One', cursive;
+}
+
+.h2 {
+  height: 30px;
+  padding-left: 10px;
+  margin-top: 20px;
+  border-left-color: rgba(235, 158, 158, 0.829);
+  border-left-style: solid;
+  border-left-width: 10px;
+  transition-property: border-left-color, margin-left;
+  transition-duration: 100ms;
+  font-family: 'Orelega One', cursive;
+}
+
+.footer {
+  text-align: center;
+  border-top: solid;
+  border-color: cadetblue;
+  margin: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 5px;
+}
+
+.link {
+  margin: 10px;
+  text-decoration: none;
+  font-family: 'OpenSans-Regular';
+}
+
+a:hover {
+  color: rgb(95, 158, 160);
+}
+
+.h2:hover {
+  border-left-color: cadetblue;
+  margin-left: 10px;
+}
